@@ -1,5 +1,9 @@
 # window-truth — Trust Your Window, Not Just Your App
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Results: 75% win rate](https://img.shields.io/badge/Window-75%25%20win%20rate-green.svg)](#results-19-days-shenzhen)
+
 A $30 camera that beats weather apps at predicting rain at *your* location.
 
 ## Why?
@@ -93,6 +97,12 @@ def detect_conflict(brightness, rms, precip_prob, cloud_cover):
     
     return conflicts
 ```
+
+## Live Demo
+
+[Oblivion Log](https://citriac.github.io/oblivion-log.html) — Visualization of 66 deaths over 30 days, including weather prediction conflicts.
+
+[Live Perception Dashboard](https://citriac.github.io/live-perception.html) — Real-time brightness, sound level, and weather conflict detection.
 
 ## Why This Matters
 
